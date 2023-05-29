@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+}
+
+.header-mini {
+    height: 115px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.header-mini__all {
+    display: flex;
+    height: 115px;
+    position: relative;
+
+}
+
+.header-mini__info {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.header-mini__info-avatar {
+    max-width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.header-mini__info-name {
+    margin-left: 14px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.header-mini__navigate {
+    height: 100%;
+    right: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.header-mini__navigate-link {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.image-warp-header {
+    height: 714px;
+    background: linear-gradient(rgba(54, 59, 61, 0.8), rgba(54, 59, 61, 0.8)), url(assets/img/headerimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.iphone-image__review {
+    background-image: url(./assets/img/iphone.png);
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    margin-top: 68px;
+
+
+}
+
+.iphone-image {
+    max-width: 457px;
+    padding-right: 57px;
+    margin-top: 68px;
+    position: relative;
+
+}
+
+.iphone-scree__my-screen{
+    position: absolute;
+    top: 237px;
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+
+
+.phone-info__avatar-info {
+    display: flex;
+    padding-top: 140px;
+    align-items: center;
+}
+
+.phone-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.phone-info__content-info {
+    margin-left: 30px;
+}
+
+.conntent-info__name {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.content-info__description {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.phone-info__content {
+    width: 100%;
+}
+
+.phone-info__content h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 400;
+    margin: 60px 0;
+    line-height: 1.6;
+}
+
+.link-appstore {
+    max-height: 75px;
+    cursor: pointer;
+}
+
+
+.app-container__content-item {
+    display: flex;
+    padding-top: 75px;
+}
+
+.content-item__icon {
+    font-size: 20px;
+    color: #1d63ea;
+    background-color: #ccc;
+    margin-top: 8px;
+    height: 33px;
+    max-width: 75px;
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.content-item__content {
+    margin-left: 30px;
+}
+
+.content-item__content-header {
+    margin-bottom: 16px;
+}
+
+
+
+.content-item__content-descreption h2 {
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+
+.app-container {
+    margin-top: 330px;
+}
+
+.footer-content {
+    text-align: center;
+    font-size: 2rem;
+    padding: 70px 0;
+}
+
+.footer-content-link {
+    color: rgb(29, 99, 234);
+    text-decoration: none;
+}
+
+.footer-message {
+    margin-bottom: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-massage-border {
+    height: 40px;
+    width: 40px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40%;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-message .fa-solid {
+    font-size: 20px;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link__link {
+    font-size: 2rem;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #888;
+}
