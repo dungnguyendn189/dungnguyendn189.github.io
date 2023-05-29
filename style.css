@@ -85,7 +85,6 @@ html {
 
 .iphone-image {
     max-width: 457px;
-    padding-right: 57px;
     margin-top: 68px;
     position: relative;
 
@@ -93,12 +92,13 @@ html {
 
 .iphone-scree__my-screen{
     position: absolute;
-    top: 237px;
-    max-width: 300px;
-    margin-left: 20px;
+    top: 298px;
+    max-width: 380px;
 }
 
-
+.phone-info-full{
+    margin-left: 40px;
+}
 
 .phone-info__avatar-info {
     display: flex;

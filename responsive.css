@@ -50,8 +50,9 @@
     }
     .iphone-scree__my-screen{
         position: absolute;
-        top: 40%;
-        right: 10%;
+        top: 50%;
+        left: 20%;
+        width: 300px;
     }
     .phone-info-full{
         flex-wrap: wrap-reverse;
@@ -92,10 +93,11 @@
 
 @media (max-width : 1239px){
     .iphone-image {
-        max-width: 300px;
+        width: 300px;
     }
     .iphone-scree__my-screen{
-        max-width: 177px;
+        max-width: 256px;
+        top: 280px;
     }
     .app-container{
         margin-top: 20px;
