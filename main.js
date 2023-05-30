@@ -1,4 +1,12 @@
-fetch("https://dungnguyendn189.github.io/data.json")
+
+var fetchJson = "https://dungnguyendn189.github.io/data.json";
+
+const myUrlWithParams = new URL("https://dungnguyendn189.github.io/");
+myUrlWithParams.searchParams.append("fetchJson","https://dungnguyendn189.github.io/data.json");
+console.log(myUrlWithParams.href);
+
+
+fetch(fetchJson)
     .then((response) => {
         if (response.ok) {
             return response.json();
