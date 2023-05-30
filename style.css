@@ -98,7 +98,10 @@ html {
 }
 
 .phone-info-full{
+    position: absolute;
     margin-left: 40px;
+    z-index: 2;
+    left: 40%;
 }
 
 .phone-info__avatar-info {
