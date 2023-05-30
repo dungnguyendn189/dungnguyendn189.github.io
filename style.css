@@ -86,14 +86,15 @@ html {
 .iphone-image {
     max-width: 457px;
     margin-top: 68px;
-    position: relative;
+    position: absolute;
 
 }
 
 .iphone-scree__my-screen{
     position: absolute;
-    top: 298px;
-    max-width: 380px;
+    width: 300px;
+   margin-top: 180px;
+   margin-left: 20px;
 }
 
 .phone-info-full{
