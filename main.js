@@ -1,13 +1,18 @@
 
 var fetchJson = "https://dungnguyendn189.github.io/data.json";
 
-const myUrlWithParams = new URL("https://dungnguyendn189.github.io/");
-myUrlWithParams.searchParams.append("fetchJson","https://dungnguyendn189.github.io/data.json");
-var myParam = myUrlWithParams.href;
+var urlParams = new URLSearchParams(window.location.search);
+
+var sectionName = urlParams.get('section');
+fetchJson = urlParams.get('name');
+
+myUrlWithParams.searchParams.append("fetchJson","https://dungnguyendn189.github.io/data.json"); // tạo url có đui là 
+var myParam = myUrlWithParams.href; // hiển thị full url
 console.log(myParam);
-var mygetParam = new URL(myParam).searchParams;
+var mygetParam = new URL(myParam).searchParams; // get cái prama từ cái json
 console.log(mygetParam);
-fetchJson = mygetParam.get("fetchJson");
+// fetchJson = mygetParam.get("fetchJson"); // gáng ngược lại cho fetch json cái api mới
+
 
 
 
