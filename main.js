@@ -1,8 +1,13 @@
 
 var fetchJson = "https://dungnguyendn189.github.io/data.json";
 
-let params = new URL(document.location).searchParams;
-fetchJson = params.get("fetchJson");
+const myUrlWithParams = new URL("https://dungnguyendn189.github.io/");
+myUrlWithParams.searchParams.append("fetchJson","https://dungnguyendn189.github.io/data.json");
+var myParam = myUrlWithParams.href;
+console.log(myParam);
+var mygetParam = new URL(myParam).searchParams;
+console.log(mygetParam);
+fetchJson = mygetParam.get("fetchJson");
 
 
 
